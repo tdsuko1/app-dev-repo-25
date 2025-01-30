@@ -12,7 +12,7 @@ const InstagramHomeScreen = () => {
                 justyifyContent: 'space-between'
             }}>
                 <Text style = {{
-                    fontFamily: 'PlaywriteIN-Regular',
+                    fontFamily: 'Pacifico-Regular',
                     fontSize: 30,
                     marginLeft: 16
                 }}>
@@ -24,20 +24,18 @@ const InstagramHomeScreen = () => {
                     marginRight:8
                 }}>
                     <View style = {{
-                        margin : 8,
-                        flexDirection:'row'
+                        margin : 8
                     }}>
-                    <Icon name = 'plus-square-o' type = 'font-awesome' size = {26} 
-                    />
-                    <Icon name = 'heart-o' type = 'font-awesome' size = {26} 
-                    />
-                    <Icon name = 'paper-plane-outline' type = 'ionicon' size = {26} 
-                    />
-
+                      <Icon name = 'plus-square-o' type = 'font-awesome' size = {26} color = 'blue'
+                      />
+                      <Icon name = 'heart-o' type = 'font-awesome' size = {26} color = 'red'
+                      />
+                      <Icon name = 'paper-plane-outline' type = 'ionicon' size = {26} color = 'pink'
+                      />
+                    </View>
                 </View>
             </View>
-        </View>
-    </View>
+          </View>
     )
   
 };
